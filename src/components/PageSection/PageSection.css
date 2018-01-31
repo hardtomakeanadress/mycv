@@ -1,0 +1,6 @@
+.PageSection {
+    border: solid 1px lightgrey;
+    background-color: #F5F5F5;
+    margin: 10px;
+    border-radius: 5px;
+}
