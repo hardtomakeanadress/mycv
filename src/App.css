@@ -2,12 +2,12 @@
  font-family: 'Roboto Condensed', sans-serif;
 }
 
-a:link {
+a:link, a:hover {
     text-decoration: none;
     color: #3C9FB6;
 }
 
-a:hover {
+/* a:hover {
     color: #3C9FB6;
-}
+} */
 
