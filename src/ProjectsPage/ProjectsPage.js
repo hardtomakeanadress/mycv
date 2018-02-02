@@ -6,6 +6,9 @@ import PageSection from '../components/PageSection/PageSection';
 class ProjectsPage extends Component {
     
     cvData = [
+        {sectionName:'This online CV',
+        sectionContent: [`This is a simple React App, that represents my online CV.`]
+        },
         {sectionName:'SmartHome',
         sectionContent: [`Web app hosted on Raspberry Pi zero with NodeJs 
                         backend and JavaScript, Ejs, HTML frontend. The app gets 

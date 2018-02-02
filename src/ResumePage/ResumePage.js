@@ -21,6 +21,13 @@ class ResumePage extends Component {
                          'C++',
                          'Product Development - Scrum',
                          'Graphic Design - Adobe Photoshop, Adobe Lightroom']
+        },
+        {sectionName:'Interests',
+        sectionContent: ['RaspberryPi, Arduino',
+                         'Solar powered projects',
+                         'Blockchain Technology',
+                         '3D Printing',
+                         'Photography']
         }
     ];
     
