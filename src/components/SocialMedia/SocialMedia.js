@@ -10,15 +10,17 @@ const SocialMedia = (props) => {
     return(
         <div id='SocialMedia'>
             <div className="row">
-                <div className="col-sm-3">
+                <div className="col-sm-6">
                     <img  src={phoneLogo} alt="contact me by phone"/>
-                    <span>+40 728 005 406</span>
+                    <div>+40728005406</div>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-6">
                     <img  src={mailLogo} alt="contact me by mail"/>
-                    <span>adi.stef@gmx.com</span>
+                    <div>adi.stef@gmx.com</div>
                 </div>
-                <div className="col-sm-3">
+            </div>
+            <div className="row">
+                <div className="col-sm-6">
                     <a href="https://www.linkedin.com/in/adistef/" 
                        target="_blank"
                        rel="noopener noreferrer">
@@ -27,10 +29,10 @@ const SocialMedia = (props) => {
                     <a href="https://www.linkedin.com/in/adistef/" 
                        target="_blank"
                        rel="noopener noreferrer">
-                        <span>My Linkedin Profile</span>
+                        <div>My Linkedin</div>
                     </a>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-6">
                     <a href="https://github.com/hardtomakeanadress" 
                        target="_blank"
                        rel="noopener noreferrer">
@@ -39,7 +41,7 @@ const SocialMedia = (props) => {
                     <a href="https://github.com/hardtomakeanadress" 
                        target="_blank"
                        rel="noopener noreferrer">
-                        <span>My GitHub</span>
+                        <div>My GitHub</div>
                     </a>
                 </div>
             </div>

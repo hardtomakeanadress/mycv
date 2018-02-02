@@ -1,13 +1,12 @@
-#SocialMedia {
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-}
-
 #SocialMedia img {
     height: 24px;
 }
 
-#SocialMedia span {
-    padding-left: 15px;
+#SocialMedia .row {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
 }
+
+
